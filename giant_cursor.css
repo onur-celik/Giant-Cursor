@@ -1,0 +1,11 @@
+body, html, document, a, a:hover {cursor:none}
+body {background:pink;}
+
+#giant_cursor {
+	background	:url(http://onur.ws/giant_cursor/img/arrow.png) no-repeat;
+	width		:48px;
+	height		:48px;
+	position	:absolute;
+	top		:10px;
+	left		:10px;
+}
