@@ -1,0 +1,31 @@
+
+	usage : 
+	
+	just create a div like <div id="myGiantCursor"></div>
+	and add these codes between the <head></head> of the page
+	
+	<script>
+		$(function(){
+			$('#myGiantCursor').giantCursor();
+		});
+	</script>
+	
+	options could be changed like :
+	
+	<script>
+		$(function(){
+			$('#myGiantCursor').giantCursor({
+				cursorUrl 	: 'http://myCursorURL', // giant cursor image's url
+				width  		: '48px',	// giant cursor's width
+				height 		: '48px',	// giant cursor's height
+				hideOriginal: true,		// if true, hides the original cursor of your borwser or OS
+				top			: 0,		// giant cursor's top
+				left		: -12,		// giant cursor's left
+				blink		: true		// if true, the giant cursor blinks
+			});
+		});
+	</script>
+	
+	
+	
+	
