@@ -1,11 +1,18 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 	<head>
 		<script type="text/javascript" src="jquery.latest.js"></script>
-		<script type="text/javascript" src="giant_cursor.js"></script>
+		<script type="text/javascript" src="jquery.giantCursor.js"></script>
 		<title>Giant Cursor by Onur Celik</title>
 		<link rel="stylesheet" href="giant_cursor.css" />
+		<script>
+			$(function(){
+				$('#makeGiant').giantCursor();
+			});
+		</script>
 	</head>
+	
 	<body>
-		<div id="giant_cursor"></div>
+		<div id="makeGiant"></div>
 	</body>
 </html>
